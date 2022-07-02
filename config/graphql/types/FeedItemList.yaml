@@ -1,0 +1,8 @@
+FeedItemList:
+    type: "object"
+    config:
+        description: "A query to return list of feed items"
+        fields:
+            feedItems:
+                type: "[FeedItem]"
+                description: "Feed item details"

@@ -1,0 +1,16 @@
+Mutation:
+    type: "object"
+    config:
+        fields:
+            createFeedItem:
+                type: "FeedItem"
+                resolve: "@=mutation('createFeedItem', [args])"
+                args:
+                    input:
+                        type: "FeedItemCreate"
+            updateFeedItem:
+                type: "FeedItem"
+                resolve: "@=mutation('updateFeedItem', [args])"
+                args:
+                    input:
+                        type: "FeedItemUpdate"

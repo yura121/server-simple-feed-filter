@@ -1,0 +1,14 @@
+FeedItemCreate:
+    type: "input-object"
+    config:
+        description: "A new feed item"
+        fields:
+            title:
+                type: "String!"
+                description: "Title of the item source."
+            link:
+                type: "String!"
+                description: "URI to the item source."
+            dt:
+                type: "String!"
+                description: "Date and time of item source."

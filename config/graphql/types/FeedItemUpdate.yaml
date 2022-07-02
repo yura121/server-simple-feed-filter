@@ -1,0 +1,20 @@
+FeedItemUpdate:
+    type: "input-object"
+    config:
+        description: "A new feed item"
+        fields:
+            id:
+                type: "Int!"
+                description: "The unique ID of the item."
+            title:
+                type: "String"
+                description: "Title of the item source."
+            link:
+                type: "String"
+                description: "URI to the item source."
+            dt:
+                type: "String"
+                description: "Date and time of item source."
+            isTrash:
+                type: "Int"
+                description: "Type of the decision: read or not read (sent to trash) the item source."

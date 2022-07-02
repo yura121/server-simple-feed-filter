@@ -1,0 +1,22 @@
+Query:
+    type: "object"
+    config:
+        description: "Feed items ORM repository"
+        fields:
+            feedItem:
+                type: "FeedItem"
+                args:
+                    id:
+                        description: "Resolves using the feed item id."
+                        type: "Int"
+                resolve: "@=resolver('FeedItem', [args])"
+            feedItemList:
+                type: "FeedItemList"
+                args:
+                    limit:
+                        description: "limit"
+                        type: "Int"
+                    isTrash:
+                        type: "Int"
+                        description: "Type of the decision: read [1] or not read [0] (sent to trash) the item source."
+                resolve: "@=resolver('FeedItemList', [args])"
