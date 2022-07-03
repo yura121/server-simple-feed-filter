@@ -8,6 +8,7 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "ext-zend-opcache": "*",
+        "ext-pdo_sqlite": "*",
         "doctrine/doctrine-bundle": "2.7",
         "doctrine/doctrine-migrations-bundle": "3.2",
         "doctrine/orm": "2.12",
@@ -21,12 +22,14 @@
         "symfony/twig-bundle": "5.4.*",
         "symfony/yaml": "5.4.*",
         "overblog/graphiql-bundle": "0.2.1",
-        "roave/security-advisories": "dev-latest",
         "symfony/debug-bundle": "5.4.*",
         "symfony/maker-bundle": "1.43",
         "symfony/stopwatch": "5.4.*",
         "symfony/var-dumper": "5.4.*",
         "symfony/web-profiler-bundle": "5.4.*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
     },
     "config": {
         "allow-plugins": {
