@@ -19,9 +19,7 @@
         "symfony/proxy-manager-bridge": "5.4.*",
         "symfony/runtime": "5.4.*",
         "symfony/twig-bundle": "5.4.*",
-        "symfony/yaml": "5.4.*"
-    },
-    "require-dev": {
+        "symfony/yaml": "5.4.*",
         "overblog/graphiql-bundle": "0.2.1",
         "roave/security-advisories": "dev-latest",
         "symfony/debug-bundle": "5.4.*",
